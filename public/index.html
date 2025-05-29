@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <h2>Chat Room</h2>
+  <div id="chat-box" style="height:300px;overflow:auto;border:1px solid #ccc;"></div>
+  <form id="chat-form">
+    <input id="chat-input" autocomplete="off" placeholder="Tulis pesan..." />
+    <button type="submit">Kirim</button>
+  </form>
 
+  <script src="script.js"></script>
+</body>
+</html>
